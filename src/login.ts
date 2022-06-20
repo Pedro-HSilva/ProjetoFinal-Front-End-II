@@ -1,5 +1,16 @@
 const botaoEntrar: any = document.getElementById("entrar");
 
+const exampleModal: any = document.getElementById("exampleModal");
+exampleModal.addEventListener("show.bs.modal", (event: any) => {
+  const button = event.relatedTarget;
+  const recipient = button.getAttribute("data-bs-whatever");
+  const modalTitle = exampleModal.querySelector(".modal-title");
+  const modalBodyInput = exampleModal.querySelector(".modal-body input");
+
+  modalTitle.textContent = `Sobre a aplicação:`;
+  modalBodyInput.value = recipient;
+});
+
 function entrarLista() {
   const nomeUsuario: any = document.getElementById("username");
   const senhaUsuario: any = document.getElementById("password");

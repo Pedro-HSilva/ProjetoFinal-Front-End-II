@@ -17,3 +17,21 @@ input {
 button {
   box-shadow: 6px 4px 4px black;
 }
+
+section {
+  background-color: rgba(252, 250, 250, 0.6);
+}
+
+#itensTabela {
+  background-color: rgba(252, 250, 250, 0.6);
+  font-size: large;
+}
+
+#identificador {
+  font-size: larger;
+}
+
+.tds {
+  padding: 10px;
+  text-align: center;
+}

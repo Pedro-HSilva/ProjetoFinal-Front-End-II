@@ -39,17 +39,106 @@
             />
           </div>
           <div class="d-grid gap-2 w-50">
-            <button class="btn btn-secondary" type="button" id="entrar">
-              ENTRAR
+            <button class="btn btn-primary" type="button" id="entrar">
+              LOGAR
             </button>
           </div>
           <div id="linkCadastro" class="alert alert-info m-3" role="alert">
             Não possue uma conta?
             <a href="./cadastro.html">Cadastre-se aqui</a>
           </div>
+          <div class="d-grid gap-2 w-25">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              data-bs-whatever="@mdo"
+            >
+              SOBRE
+            </button>
+          </div>
         </div>
       </div>
     </section>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Sobre a aplicação:
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <p>
+                Este é o trabalho de final de módulo de Front End II do meu
+                curso. Curso Full Stack Developer da Growdev O trabalho é feito
+                com 03 páginas HTML e 3 arquivos TypeScript com as funções. Ao
+                contrário da primeira avaliação final de módulo, está foi mais
+                focada na estilização e utilização feita com o Bootstrap!
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar modal
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="modal fade" id="myModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Sobre o Projeto</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Este é meu trabalho de final de módulo de Front End II do meu
+              curso. Curso Full Stack Developer da Growdev O trabalho é feito
+              com 03 páginas HTML e 3 arquivos TypeScript com as funções. Ao
+              contrário da primeira avaliação final de módulo, está foi mais
+              focada na estilização e utilização feita com o Bootstrap!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              id="myInput"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div> -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"

@@ -54,7 +54,7 @@ const preencherTabela = () => {
     tabela.innerHTML = `
   
   <br>
-  <tr id="identificador" class="text-uppercase">
+  <tr id="identificador" class="text-uppercase   ">
   
   <th class="item"><ins><b>#</b></ins></th>
   <th class="item"><ins><b>Descrição</b></ins></th>
@@ -71,8 +71,8 @@ const preencherTabela = () => {
         index++;
         tabela.innerHTML += `
     
-    <tr id="itensTabela" >
-        <td class="tds" id="num">${index}</td>
+    <tr id="itensTabela" class="">
+        <td class="tds " id="num">${index}</td>
         <td class="tds">${mensagem.descricao}</td>
         <td class="tds">${mensagem.detalhamento}</td>
         <td class="tds "><button style="cursor: pointer" type="button" class="btn btn-success" id='btn-editar' onclick="editarMensagem(${mensagem.id})">EDITAR</button>
